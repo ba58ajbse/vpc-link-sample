@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: 2010-09-09
+
+Resources:
+  VpcLink:
+    Type: AWS::ApiGatewayV2::VpcLink
+    Properties:
+      Name: sample-link-cf
+      SecurityGroupIds:
+        - ""
+      SubnetIds:
+        - ""
+        - ""
+      Tags:
+        Key: ""
